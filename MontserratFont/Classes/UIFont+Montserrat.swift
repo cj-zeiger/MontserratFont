@@ -15,7 +15,7 @@ class MontserratFontFakeClass {
 
 }
 
-let fonts: [String] = [
+let montserratFonts: [String] = [
     "Montserrat-Hairline",
     "Montserrat-HairlineItalic",
     "Montserrat-Light",
@@ -35,13 +35,13 @@ let fonts: [String] = [
 
 ]
 
-func fontInit()
+func montserratFontInit()
 {
     let podBundle = Bundle(for: MontserratFontFakeClass.self)
     if let bundleURL = podBundle.url(forResource: "MontserratFont", withExtension: "bundle") {
         if let bundle = Bundle(url: bundleURL) {
 
-            for font in fonts {
+            for font in montserratFonts {
                 let url = bundle.url(forResource: font, withExtension: "ttf")
 
                 if (url != nil) {
@@ -61,8 +61,8 @@ extension UIFont {
      - parameter size: size of the font
      */
     public class func montserratHairline(size: CGFloat) -> UIFont! {
-        fontInit()
-        return UIFont.init(name: fonts[0], size: size);
+        montserratFontInit()
+        return UIFont.init(name: montserratFonts[0], size: size);
     }
 
     /**
@@ -71,8 +71,8 @@ extension UIFont {
      - parameter size: size of the font
      */
     public class func montserratHairlineItalic(size: CGFloat) -> UIFont! {
-        fontInit()
-        return UIFont.init(name: fonts[1], size: size);
+        montserratFontInit()
+        return UIFont.init(name: montserratFonts[1], size: size);
     }
 
     /**
@@ -81,8 +81,8 @@ extension UIFont {
      - parameter size: size of the font
      */
     public class func montserratLight(size: CGFloat) -> UIFont! {
-        fontInit()
-        return UIFont.init(name: fonts[2], size: size);
+        montserratFontInit()
+        return UIFont.init(name: montserratFonts[2], size: size);
     }
 
     /**
@@ -91,8 +91,8 @@ extension UIFont {
      - parameter size: size of the font
      */
     public class func montserratLightItalic(size: CGFloat) -> UIFont! {
-        fontInit()
-        return UIFont.init(name: fonts[3], size: size);
+        montserratFontInit()
+        return UIFont.init(name: montserratFonts[3], size: size);
     }
 
     /**
@@ -101,8 +101,8 @@ extension UIFont {
      - parameter size: size of the font
      */
     public class func montserrat(size: CGFloat) -> UIFont! {
-        fontInit()
-        return UIFont.init(name: fonts[4], size: size);
+        montserratFontInit()
+        return UIFont.init(name: montserratFonts[4], size: size);
     }
 
     /**
@@ -111,8 +111,8 @@ extension UIFont {
      - parameter size: size of the font
      */
     public class func montserratItalic(size: CGFloat) -> UIFont! {
-        fontInit()
-        return UIFont.init(name: fonts[5], size: size);
+        montserratFontInit()
+        return UIFont.init(name: montserratFonts[5], size: size);
     }
 
     /**
@@ -121,8 +121,8 @@ extension UIFont {
      - parameter size: size of the font
      */
     public class func montserratBold(size: CGFloat) -> UIFont! {
-        fontInit()
-        return UIFont.init(name: fonts[6], size: size);
+        montserratFontInit()
+        return UIFont.init(name: montserratFonts[6], size: size);
     }
 
     /**
@@ -131,8 +131,8 @@ extension UIFont {
      - parameter size: size of the font
      */
     public class func montserratBoldItalic(size: CGFloat) -> UIFont! {
-        fontInit()
-        return UIFont.init(name: fonts[7], size: size);
+        montserratFontInit()
+        return UIFont.init(name: montserratFonts[7], size: size);
     }
 
     /**
@@ -141,8 +141,8 @@ extension UIFont {
      - parameter size: size of the font
      */
     public class func montserratBlack(size: CGFloat) -> UIFont! {
-        fontInit()
-        return UIFont.init(name: fonts[8], size: size);
+        montserratFontInit()
+        return UIFont.init(name: montserratFonts[8], size: size);
     }
 
     /**
@@ -151,8 +151,8 @@ extension UIFont {
      - parameter size: size of the font
      */
     public class func montserratBlackItalic(size: CGFloat) -> UIFont! {
-        fontInit()
-        return UIFont.init(name: fonts[9], size: size);
+        montserratFontInit()
+        return UIFont.init(name: montserratFonts[9], size: size);
     }
 
     /**
@@ -161,8 +161,8 @@ extension UIFont {
      - parameter size: size of the font
      */
     public class func montserratExtraBold(size: CGFloat) -> UIFont! {
-        fontInit()
-        return UIFont.init(name: fonts[10], size: size);
+        montserratFontInit()
+        return UIFont.init(name: montserratFonts[10], size: size);
     }
 
     /**
@@ -171,8 +171,8 @@ extension UIFont {
      - parameter size: size of the font
      */
     public class func montserratExtraBoldItalic(size: CGFloat) -> UIFont! {
-        fontInit()
-        return UIFont.init(name: fonts[11], size: size);
+        montserratFontInit()
+        return UIFont.init(name: montserratFonts[11], size: size);
     }
 
     /**
@@ -181,8 +181,8 @@ extension UIFont {
      - parameter size: size of the font
      */
     public class func montserratMedium(size: CGFloat) -> UIFont! {
-        fontInit()
-        return UIFont.init(name: fonts[12], size: size);
+        montserratFontInit()
+        return UIFont.init(name: montserratFonts[12], size: size);
     }
 
     /**
@@ -191,8 +191,8 @@ extension UIFont {
      - parameter size: size of the font
      */
     public class func montserratMediumItalic(size: CGFloat) -> UIFont! {
-        fontInit()
-        return UIFont.init(name: fonts[13], size: size);
+        montserratFontInit()
+        return UIFont.init(name: montserratFonts[13], size: size);
     }
 
     /**
@@ -201,8 +201,8 @@ extension UIFont {
      - parameter size: size of the font
      */
     public class func montserratSemiBold(size: CGFloat) -> UIFont! {
-        fontInit()
-        return UIFont.init(name: fonts[14], size: size);
+        montserratFontInit()
+        return UIFont.init(name: montserratFonts[14], size: size);
     }
 
     /**
@@ -211,8 +211,8 @@ extension UIFont {
      - parameter size: size of the font
      */
     public class func montserratSemiBoldItalic(size: CGFloat) -> UIFont! {
-        fontInit()
-        return UIFont.init(name: fonts[15], size: size);
+        montserratFontInit()
+        return UIFont.init(name: montserratFonts[15], size: size);
     }
 
 }

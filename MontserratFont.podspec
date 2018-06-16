@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MontserratFont'
-  s.version          = '1.0'
+  s.version          = '1.1'
   s.summary          = 'Brings Monstserrat font to iOS.'
   s.homepage         = 'https://github.com/cj-zeiger/MontserratFont'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
